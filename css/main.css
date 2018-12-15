@@ -1,0 +1,64 @@
+header {
+	margin-bottom: 50px;
+}
+
+.content p {
+	text-align: left;
+}
+
+.choose {
+	text-align: left;
+	margin: 15px 0;
+	background: white;
+	border: 1px solid black;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.content h3 {
+	font-size: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#employees, #positions, #orgs, #subs {
+	border: 1px solid black;
+	padding: 15px 30px;
+}
+
+.person, .position, .orgs, .subs {
+	padding: 7px 15px;
+	margin: 0;
+}
+
+.person li, .position li, .orgs li, .subs li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.delete {
+	width: 17px;
+	height: 25px;
+	border: 1px solid black;
+	background: white;
+	margin-left: 10px;
+	padding: 0 4px;
+}
+
+.delete::after {
+	content: "X";
+}
+
+.btn-footer {
+	text-align: right;
+}
+
+.btn-footer button {
+	background: white;
+	border: 1px solid black;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin: 15px 0px 15px 10px;
+	width: 100px;
+}

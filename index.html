@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Labmedia</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/bootstrap-grid-4.1.3.min.css">
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+</head>
+<body>
+	<header></header>
+	
+	<div class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col"></div>
+				<div class="col"><p>Сотрудник</p></div>
+				<div class="col-5">
+					<button class="choose" data-fancybox data-src="#btn-employee">Выбрать</button>
+					<div class="add"></div>
+				</div>
+				<div class="col-1"></div>
+
+				<div id="btn-employee" style="display: none;">
+					<h3>Выбор сотрудника</h3>
+					<div id="employees">
+						
+					</div>
+					<div class="btn-footer">
+						<button class="ok" data-fancybox-close>Ок</button>
+						<button data-fancybox-close>Отмена</button>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col"><p>Должность</p></div>
+				<div class="col-5">
+					<button class="choose" data-fancybox data-src="#btn-position">Выбрать</button>
+					<div class="add">
+						
+					</div>
+				</div>
+				<div class="col-1"></div>
+				
+				<div id="btn-position" style="display: none;">
+					<h3>Выбор должности</h3>
+					<div id="positions">
+						
+					</div>
+					<div class="btn-footer">
+						<button class="ok" data-fancybox-close>Ок</button>
+						<button data-fancybox-close>Отмена</button>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col"><p>Организация</p></div>
+				<div class="col-5">
+					<button class="choose" data-fancybox data-src="#btn-organization">Выбрать</button>
+					<div class="add">
+						
+					</div>
+				</div>
+				<div class="col-1"></div>
+
+				<div id="btn-organization" style="display: none;">
+					<h3>Выбор организации</h3>
+					<div id="orgs">
+						
+					</div>
+					<div class="btn-footer">
+						<button class="ok" data-fancybox-close>Ок</button>
+						<button data-fancybox-close>Отмена</button>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col"></div>
+				<div class="col"><p>Подразделение</p></div>
+				<div class="col-5">
+					<button class="choose" data-fancybox data-src="#btn-subs">Выбрать</button>
+					<div class="add">
+						
+					</div>
+				</div>
+				<div class="col-1"></div>
+
+				<div id="btn-subs" style="display: none;">
+					<h3>Выбор подразделения</h3>
+					<div id="subs">
+						
+					</div>
+					<div class="btn-footer">
+						<button class="ok" data-fancybox-close>Ок</button>
+						<button data-fancybox-close>Отмена</button>
+					</div>
+				</div>
+			</div>
+				
+			</div>
+		</div>
+	</div>
+	<script src="libs/jquery.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.min.js"></script>
+
+	<script src="js/js.js"></script>
+
+</body>
+</html>
